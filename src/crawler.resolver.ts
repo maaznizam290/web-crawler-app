@@ -2,7 +2,7 @@ import { Query, Resolver } from '@nestjs/graphql';
 import axios from 'axios';
 import * as cheerio from 'cheerio';
 
-interface Mobile {
+class Mobile {
   name: string;
   price: string;
 }
